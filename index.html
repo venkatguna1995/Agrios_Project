@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <section class="navbar">
+
+        <div class="navbar-upper">
+            <div class="navbar-upper-logo">
+                <img src="assets/images/logo.png" alt="">
+            </div>
+
+            <div class="navbar-upper-contact">
+                <div class="navbar-upper-social-media">
+                    <div class="navbar-upper-social-media-img">
+                        <img src="assets/icons/twitter.png" alt="">
+                    </div>
+                    <div class="navbar-upper-social-media-img">
+                        <img src="assets/icons/fb.png" alt="">
+                    </div>
+                    <div class="navbar-upper-social-media-img">
+                        <img src="assets/icons/pinterest.png" alt="">
+                    </div>
+                    <div class="navbar-upper-social-media-img">
+                        <img src="assets/icons/instagram.png" alt="">
+                    </div>
+                </div>
+                <div class="navbar-upper-mobile">
+                    <div class="phone">
+                        <img src="assets/icons/phone.png" alt="">
+                    </div>
+                    <div class="phone-details">
+                        <p>call anytime</p>
+                        <h6>+ 98 (000) - 9630</h6>
+                    </div>
+                </div>
+                <div class="navbar-upper-email">
+                    <div class="email">
+                        <img src="assets/icons/email.png" alt="">
+                    </div>
+                    <div class="email-details">
+                        <p>Send email</p>
+                        <h6>ambed@agrios.com</h6>
+                    </div>
+                </div>
+                <div class="navbar-upper-location">
+                    <div class="location">
+                        <img src="assets/icons/location.png" alt="">
+                    </div>
+                    <div class="location-details">
+                        <p>380 St Kilda Road</p>
+                        <h6>Melbourne, Australia</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-burger">
+                <div class="navbar-lower-icons">
+                    <img src="assets/icons/search-icon.png" alt="">
+                    <div class="cart-zero">
+                        <img src="assets/icons/shoping-cart.png" alt="">
+                        <div class="top-cart">
+                            <p>0</p>
+                        </div>
+                    </div>
+                </div>
+                <span style="font-size:30px;cursor:pointer; color: green;" onclick="toggleNav()">&#9776;</span>
+            </div>            
+        </div>
+
+        <div class="navbar-lower">
+            <div class="navbar-lower-menu">
+                <ul class="navbar-list">
+                    <li class="nav-item">
+                        <a href="#">Home <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Home 1</a></li>
+                            <li><a href="#">Home 2</a></li>
+                            <li><a href="#">Home 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">About <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">About 1</a></li>
+                            <li><a href="#">About 2</a></li>
+                            <li><a href="#">About 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Services <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Service 1</a></li>
+                            <li><a href="#">Service 2</a></li>
+                            <li><a href="#">Service 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Projects <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Project 1</a></li>
+                            <li><a href="#">Project 2</a></li>
+                            <li><a href="#">Project 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">News <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">News 1</a></li>
+                            <li><a href="#">News 2</a></li>
+                            <li><a href="#">News 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Shop <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Shop 1</a></li>
+                            <li><a href="#">Shop 2</a></li>
+                            <li><a href="#">Shop 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Contact <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Contact 1</a></li>
+                            <li><a href="#">Contact 2</a></li>
+                            <li><a href="#">Contact 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-lower-icons">
+                <img src="assets/icons/search-icon.png" alt="">
+                <div class="cart-zero">
+                    <img src="assets/icons/shoping-cart.png" alt="">
+                    <div class="top-cart">
+                        <p>0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar-TM hidden">
+            <ul class="navbar-list">
+                <li class="nav-item">
+                    <a href="#">Home <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#">Home 1</a></li>
+                        <li><a href="#">Home 2</a></li>
+                        <li><a href="#">Home 3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#">About <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#">About 1</a></li>
+                        <li><a href="#">About 2</a></li>
+                        <li><a href="#">About 3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Services <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#">Service 1</a></li>
+                        <li><a href="#">Service 2</a></li>
+                        <li><a href="#">Service 3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Projects <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#">Project 1</a></li>
+                        <li><a href="#">Project 2</a></li>
+                        <li><a href="#">Project 3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#">News <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#">News 1</a></li>
+                        <li><a href="#">News 2</a></li>
+                        <li><a href="#">News 3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Shop <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#">Shop 1</a></li>
+                        <li><a href="#">Shop 2</a></li>
+                        <li><a href="#">Shop 3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Contact <i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#">Contact 1</a></li>
+                        <li><a href="#">Contact 2</a></li>
+                        <li><a href="#">Contact 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="navbar-upper-contact">
+                <div class="navbar-upper-social-media">
+                    <div class="navbar-upper-social-media-img">
+                        <img src="assets/icons/twitter.png" alt="">
+                    </div>
+                    <div class="navbar-upper-social-media-img">
+                        <img src="assets/icons/fb.png" alt="">
+                    </div>
+                    <div class="navbar-upper-social-media-img">
+                        <img src="assets/icons/pinterest.png" alt="">
+                    </div>
+                    <div class="navbar-upper-social-media-img">
+                        <img src="assets/icons/instagram.png" alt="">
+                    </div>
+                </div>
+                <div class="navbar-upper-mobile">
+                    <div class="phone">
+                        <img src="assets/icons/phone.png" alt="">
+                    </div>
+                    <div class="phone-details">
+                        <p>call anytime</p>
+                        <h6>+ 98 (000) - 9630</h6>
+                    </div>
+                </div>
+                <div class="navbar-upper-email">
+                    <div class="email">
+                        <img src="assets/icons/email.png" alt="">
+                    </div>
+                    <div class="email-details">
+                        <p>Send email</p>
+                        <h6>ambed@agrios.com</h6>
+                    </div>
+                </div>
+                <div class="navbar-upper-location">
+                    <div class="location">
+                        <img src="assets/icons/location.png" alt="">
+                    </div>
+                    <div class="location-details">
+                        <p>380 St Kilda Road</p>
+                        <h6>Melbourne, Australia</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/app.js"></script>
+</body>
+
+</html>
